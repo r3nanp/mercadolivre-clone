@@ -24,7 +24,11 @@ const Product: React.FC = () => {
       <Panel>
         <Column>
           <Gallery>
-            <img alt="T-Shirt" src={tshirtImage} />
+            <img
+              alt="T-Shirt"
+              src={tshirtImage}
+              width="73%"
+            />
           </Gallery>
 
           <Info />
@@ -60,6 +64,8 @@ const WarrantySection = () => (
         <p className="description">Garantia de 3 meses.</p>
       </span>
     </div>
+
+    <a href="#">Saiba mais sobre garantia</a>
   </Section>
 );
 

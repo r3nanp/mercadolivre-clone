@@ -37,23 +37,89 @@ export const Panel = styled.div`
   display: grid;
   grid-template-columns: 65fr 35fr;
 
-
-
-
   @media (max-width: 768px) {
     display: flex;
     flex-direction: column;
 
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
   }
 `;
 
-export const Column = styled.div``;
+export const Column = styled.div`
+  &:first-child {
+    border-right: 1px solid var(--color-border);
+  }
+`;
 
-export const Gallery = styled.div``;
+export const Gallery = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-export const Section = styled.div``;
+  height: 530px;
 
-export const Description = styled.div``;
+  > img {
+    cursor: zoom-in;
+    height: 73%;
+    object-fit: contain;
+  }
+`;
 
+export const Section = styled.div`
+  border-top: 1px solid var(--color-border);
+  padding: 48px 32px;
+
+  display: flex;
+  flex-direction: column;
+
+  > h4 {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+
+  > div {
+    display: flex;
+    flex-direction: column;
+
+    > span + span {
+      margin-top: 16px;
+    }
+
+    .title {
+      font-size: 16px;
+      color: var(--color-black);
+    }
+
+    .description {
+      margin-top: 5px;
+      font-size: 14px;
+      color: var(--color-gray);
+      line-height: 19px;
+    }
+  }
+
+  > a {
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--color-blue);
+    text-decoration: none;
+  }
+`;
+
+export const Description = styled.div`
+  border-top: 1px solid var(--color-border);
+  padding: 44px 32px;
+
+  > h2 {
+    font-size: 24px;
+    margin-bottom: 32px;
+  }
+
+  > p {
+    font-size: 20px;
+    color: var(--color-gray);
+    line-height: 27px;
+  }
+`;
