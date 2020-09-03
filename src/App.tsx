@@ -1,7 +1,15 @@
 import React from 'react';
 
+import Layout from './components/Layout';
+import GlobalStyles from './styles/GlobalStyles';
+
 function App() {
-  return <h1>Rocketseat</h1>;
+  return(
+    <>
+      <Layout />
+      <GlobalStyles />
+    </>
+  );
 }
 
 export default App;
