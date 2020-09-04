@@ -13,6 +13,9 @@ import {
   Description,
 } from './styles';
 
+import SellerInfo from '../SellerInfo';
+import ProductAction from '../ProductAction';
+
 const Product: React.FC = () => {
   return (
     <Container>
@@ -35,8 +38,8 @@ const Product: React.FC = () => {
         </Column>
 
         <Column>
-          {/* <ProductAction />
-          <SellerInfo /> */}
+          <ProductAction />
+          <SellerInfo />
 
           <WarrantySection />
           <WarrantySection />
