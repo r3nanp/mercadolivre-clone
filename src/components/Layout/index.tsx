@@ -1,8 +1,8 @@
 import React from 'react';
 
 import Header from '../Header';
-import Footer from '../Footer';
 import Product from '../Product';
+import Footer from '../Footer';
 
 import { Container, Wrapper } from './styles';
 

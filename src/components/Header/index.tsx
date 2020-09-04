@@ -1,9 +1,16 @@
-import React from "react";
+import React from 'react';
 
-import { Container } from "./styles";
+import { Container, SearchForm, SearchIcon } from './styles';
 
 const Header: React.FC = () => {
-  return <Container>Interface reproduzida com a Rocketseat</Container>;
+  return (
+    <Container>
+      <SearchForm>
+        <SearchIcon />
+        <input placeholder="Buscar produtos, marcas e muito mais" />
+      </SearchForm>
+    </Container>
+  );
 };
 
 export default Header;

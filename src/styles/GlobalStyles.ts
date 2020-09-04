@@ -24,6 +24,7 @@ export default createGlobalStyle`
     --color-white: #FFF;
     --color-gray: #666;
     --color-blue: #3483fa;
+    --color-blue-hover: #206fe6;
     --color-green: #00a650;
 
     --color-header: #FFF159;
