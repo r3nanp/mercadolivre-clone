@@ -30,7 +30,6 @@ const Product: React.FC = () => {
             <img
               alt="T-Shirt"
               src={tshirtImage}
-              width="73%"
             />
           </Gallery>
 
@@ -79,15 +78,6 @@ const Info = () => (
       Uma T-shirt importada sem estampa pronta para você comprar!!! São feitas
       de políester e algodão de qualidade, além disso, é muito confortável
       usa-lá. Super customizável e tecido bom e de qualidade.
-      {/* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque a
-      pharetra odio. Quisque dapibus dui turpis, eget aliquam sem vestibulum at.
-      Proin tempus tempor lectus, sed placerat mauris rutrum vitae. Maecenas
-      dapibus gravida laoreet. Etiam blandit tellus ut ex efficitur, quis
-      feugiat massa pretium. Duis sem lacus, efficitur nec sagittis in,
-      consequat sed turpis. Mauris vitae malesuada risus, at lobortis nulla. Sed
-      vehicula dolor in urna gravida tincidunt. Vestibulum purus lacus,
-      scelerisque pulvinar semper vel, porta quis neque. Sed sed metus metus. Ut
-      eu risus a tellus sagittis tempor. Praesent eu lacinia nulla. */}
     </p>
     <br />
     <br />

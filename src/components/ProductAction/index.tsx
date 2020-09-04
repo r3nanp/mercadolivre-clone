@@ -45,9 +45,7 @@ const ProductAction: React.FC = () => {
       <InstallmentsInfo>
         <CreditIcon />
 
-        <span className="methods">
-          em 3x de R$ 26,99 sem juros
-        </span>
+        <span className="methods">em 3x de R$ 26,99 sem juros</span>
       </InstallmentsInfo>
 
       <MethodCard>
@@ -76,21 +74,24 @@ const ProductAction: React.FC = () => {
         <li>
           <ReturnIcon />
           <p>
-            Devolução grátis. Você tem 7 dias a partir da data de recebimento.
+            <a href="#">Devolução grátis.</a> Você tem 7 dias a partir da data
+            de recebimento.
           </p>
         </li>
 
         <li>
           <ShieldIcon />
           <p>
-            Compra garantida, receba o produto que está esperando ou devolvemos
-            o dinheiro.
+            <a href="#"> Compra garantida.</a> receba o produto que está
+            esperando ou devolvemos o dinheiro.
           </p>
         </li>
 
         <li>
           <TrophyIcon />
-          <p>Lorem Pontos. Você acumula 353 pontos.</p>
+          <p>
+            <a href="#">Lorem Pontos.</a> Você acumula 353 pontos.
+          </p>
         </li>
       </Benefits>
     </Container>

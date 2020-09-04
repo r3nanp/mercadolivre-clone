@@ -155,6 +155,11 @@ export const Benefits = styled.ul`
       margin-left: 10px;
       color: var(--color-gray);
       font-size: 14px;
+
+      > a {
+        text-decoration: none;
+        color: var(--color-blue);
+      }
     }
   }
 
