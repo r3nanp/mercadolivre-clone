@@ -1,7 +1,5 @@
 # Mercado Livre Clone
-  Clone da vitrine do Mercado Livre feito com React.
-  Projeto resultado do UI Clone da Rocketseat.
-
+A clone of Mercado Livre made in React.
 
 ## Technologies
 * React
