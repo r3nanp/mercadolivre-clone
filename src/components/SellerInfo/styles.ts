@@ -119,6 +119,7 @@ export const ReputationRow = styled.div`
         border-left: 1px solid var(--color-border);
       }
     }
+
   }
 `;
 
