@@ -11,4 +11,10 @@ export const Container = styled.div`
   justify-content: center;
 
   margin-top: 30px;
+
+  > a {
+    margin-left: 5px;
+    text-decoration: none;
+    color: var(--color-blue);
+  }
 `;
