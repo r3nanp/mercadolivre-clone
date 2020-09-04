@@ -45,7 +45,14 @@ const ProductAction: React.FC = () => {
       <InstallmentsInfo>
         <CreditIcon />
 
-        <span className="methods">em 3x de R$ 26,99 sem juros</span>
+        <div>
+          <span>em 3x de R$ 26,99 sem juros</span>
+          <div id="figure">
+            <div className="visa"></div>
+            <div className="mastercard"></div>
+            <div className="billet"></div>
+          </div>
+        </div>
       </InstallmentsInfo>
 
       <MethodCard>

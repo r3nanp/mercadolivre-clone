@@ -65,15 +65,50 @@ export const PriceRow = styled.div`
 `;
 
 export const InstallmentsInfo = styled.div`
-  color: var(--color-green);
   margin-top: 18px;
-  font-size: 16px;
-
   margin-left: 8px;
   display: flex;
 
-  .methods {
-    margin-left: 8px;
+  > div {
+    display: flex;
+    flex-direction: column;
+
+    > span {
+      color: var(--color-green);
+      margin-left: 8px;
+      font-size: 16px;
+    }
+
+    #figure {
+      margin-top: 8px;
+      display: flex;
+
+      .visa {
+        background: url('https://http2.mlstatic.com/secure/payment-logos/v2/payment-logos-mlb-small_v_63c672c372.png');
+        width: 34px;
+        height: 11px;
+
+        background-position: left -252px;
+        margin-right: 10px;
+      }
+
+      .mastercard {
+        background: url('https://http2.mlstatic.com/secure/payment-logos/v2/payment-logos-mlb-small_v_63c672c372.png');
+        width: 26px;
+        height: 20px;
+
+        background-position: left -188px;
+        margin-right: 10px;
+      }
+
+      .billet {
+        background: url('https://http2.mlstatic.com/secure/payment-logos/v2/payment-logos-mlb-small_v_63c672c372.png');
+
+        width: 28px;
+        height: 18px;
+        background-position: left 0;
+      }
+    }
   }
 `;
 
