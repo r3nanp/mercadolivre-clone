@@ -1,6 +1,8 @@
 # Mercado Livre Clone
 A clone of Mercado Livre made in React. <br/>
-![license mit](https://img.shields.io/github/license/r3nanp/mercadolivre-clone)
+
+![license mit](https://img.shields.io/github/license/r3nanp/mercadolivre-clone?color=blue&logo=github)
+
 ![r3nanp](https://img.shields.io/badge/r3nanp-mercadolivre--clone-blue)
 
 ## Technologies
